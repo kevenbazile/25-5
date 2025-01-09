@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #004f54;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.length-controls {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.control h2 {
+  font-size: 1.2rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #026d75;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03595e;
+}
+
+#timer {
+  margin: 30px auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+}
+
+#timer-label {
+  font-size: 1.2rem;
+}
+
+#time-left {
+  font-size: 2rem;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+footer {
+  margin-top: 50px;
+  color: #e74c3c;
+}
